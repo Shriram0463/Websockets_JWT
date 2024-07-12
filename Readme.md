@@ -67,35 +67,35 @@ Sends decoded messages back to Spring Boot for confirmation.
 
 1. **MessageController.java**
 
-Handles incoming requests and sends JWT tokens over WebSocket.
+    Handles incoming requests and sends JWT tokens over WebSocket.
 
 2. **JwtService.java**
 
-Provides JWT token generation and verification services.
+    Provides JWT token generation and verification services.
 
 3. **Message.java**
 
-Defines the data model for messages exchanged over WebSocket.
+    Defines the data model for messages exchanged over WebSocket.
 
 4. **JwtWebsocketApplication.java**
 
-Main entry point for the Spring Boot application.
+    Main entry point for the Spring Boot application.
 
 5. **application.properties**
 
-Configuration properties for the Spring Boot application.
+    Configuration properties for the Spring Boot application.
 
 6. **pom.xml**
 
-Maven configuration file for managing dependencies and build process.
+    Maven configuration file for managing dependencies and build process.
 
 7. **main.py**
 
-Defines WebSocket endpoint and JWT token decoding logic in FastAPI.
+    Defines WebSocket endpoint and JWT token decoding logic in FastAPI.
 
 8. **jwt_service.py**
 
-Provides functions for decoding JWT tokens in FastAPI.
+    Provides functions for decoding JWT tokens in FastAPI.
 
 
 ## Requirements
