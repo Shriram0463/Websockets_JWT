@@ -40,7 +40,7 @@ Sends decoded messages back to Spring Boot for confirmation.
 
 ## Code Structure
 
-    code/
+    WS_JWT/
     ├── spring-boot/
     │   ├── src/
     │   │   ├── main/
